@@ -1,0 +1,21 @@
+REST API -JSON
+A RESTful API lets one app ask another app for data or tell it to do something — using simple web URLs and rules
+
+GET /users - HTML document render
+GET/api/users - List all users JSON data
+
+GET /api/users/1 - Get the user with ID 1
+GET /api/users/2 - Get the user with ID 2
+
+Dynamic Path Parameters
+Get /api/users/:id
+:id -> Variable | Dynamic 
+POST /api/users - Create new user
+
+PATCH /api/user/id - Edit the user with ID 1
+
+DELETE /api/users/1 - Delete the User with ID 1
+
+MOCKAROO.com generates fake data of users since we have no database connected right now
+
+Now we cannot operate post,Patch,Delete on Browser so for this purpose we downloaded POSTMAN is is basically a utility tool jo Api testing and documentation mei help karta hai
